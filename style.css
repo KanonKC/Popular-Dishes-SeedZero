@@ -1,0 +1,95 @@
+body{
+    font-family: sans-serif;
+    background-color: #f9f6f2;
+}
+
+#title{
+    text-align: center;
+    font-size: 55px;
+    margin: 50px 0;
+}
+
+.list-food-card{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 0 160px;
+}
+
+.food-card{
+    width: 361px;
+    height: 498px;
+    background-color: white;
+    border-radius: 5%;
+    box-shadow: 3px 4px 10px rgb(0 0 0 / 20%);
+    margin: 15px auto;
+}
+
+.food-card .image{
+    text-align: center;
+}
+
+.food-card img{
+    width: 301px;
+    height: 243px;
+    margin-top: 30px;
+    border-radius: 5%;
+}
+
+.food-card .text{
+    margin: 0 30px;
+    line-height: 25px;
+}
+
+.food-card .text h3{
+    font-size: 24px;
+    color: #bfa98b;
+    margin-bottom: 10px;
+}
+
+.food-card .text .description{
+    line-height: 25px;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+.price-buy{
+    display: flex;
+    align-items: center !important;
+}
+
+.price-buy .price{
+    padding-bottom: 12px;
+}
+
+.price-buy button{
+    padding: 10px;
+    border-radius:10%;
+    border: none;
+    background-color: #bfa98b;
+    font-weight: bold;
+    background-color: #bfa98b;
+    border: none;
+    color: white;
+    padding: 0px 20px;
+    border-radius: 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    height: 40px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 110px;
+    transition: 0.3s;
+}
+
+.price-buy button:hover{
+    background-color: #7d5d2d;
+}
+
+#credit{
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    margin: 40px 0;
+}
